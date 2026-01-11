@@ -13,10 +13,11 @@ public class oxo {
     String a9 = "9";
     int turn1 = 1;
     int turn2 = 0;
+    System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
     while (true) {
       
-    System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
     System.out.println("\n\noxo\n");
     System.out.println(a1 + "|" + a2 + "|" + a3);
     System.out.println("-----");
@@ -154,6 +155,8 @@ public class oxo {
         turn1 = 0;
       }
       turn2 = turn2 + 1;
+      System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
       if (turn2 == 9){
         
         valid = "1";
@@ -173,8 +176,126 @@ public class oxo {
 
 
 
-
-
+      if (a1.equals(a2) && a2.equals(a3)){
+        System.out.println(a1 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
+      else if (a4.equals(a5) && a5.equals(a6)){
+        System.out.println(a5 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
+      else if (a7.equals(a8) && a8.equals(a9)){
+        System.out.println(a7 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
+      else if (a1.equals(a4) && a4.equals(a7)){
+        System.out.println(a1 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
+      else if (a2.equals(a5) && a5.equals(a8)){
+        System.out.println(a8 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
+      else if (a3.equals(a6) && a6.equals(a9)){
+        System.out.println(a3 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
+      else if (a1.equals(a5) && a5.equals(a9)){
+        System.out.println(a5 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
+      else if (a7.equals(a5) && a5.equals(a3)){
+        System.out.println(a5 + " won");
+          valid = "1";
+          a1 = "1";
+          a2 = "2";
+          a3 = "3";
+          a4 = "4";
+          a5 = "5";
+          a6 = "6";
+          a7 = "7";
+          a8 = "8";
+          a9 = "9";
+          turn1 = 1;
+          turn2 = 0;
+      }
 
   }
 
